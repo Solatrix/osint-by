@@ -11,7 +11,7 @@ This repo is essentially a collection of the datasets I extracted and the tools 
 
 The repo is organized as follows
 
-```Bash
+```shell
 ├── #Azovstal 
 │   ├── azvostal.gephi
 │   ├── cache
@@ -72,7 +72,7 @@ The `python-scripts` contains the `tgstat-chartdata-crawler.py` file which in es
 Using the `tgstat-chartdata-crawler.py` you will need Python 3.8+ and a CLI interface.
 I usually run the script as follows : 
 
-```bash
+```shell
 python3 -m tgstat-crawler.py --channels=@telegram_channel_name --period=(months|weeks|days|years) --metric=(views|posts|views_per_posts|members|reposts) --start-date=YYYY-MM-DD --end-date=YYYY-MM-DD > output.json
 ```
 
